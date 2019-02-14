@@ -19,3 +19,4 @@ def letter_grade(grade_percentage):
 
 print("Enter your the percentage you got on the test")
 grade_percentage = int(input())
+grade = letter_grade(grade_percentage)
